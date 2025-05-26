@@ -6,5 +6,5 @@ startup: services
 boot: auto
 ports:
   3010/tcp: 3010
-webui: "http://[HOST]:[PORT:3010]"
+*webui: "http://[HOST]:[PORT:3010]"
 image: "ghcr.io/danny-avila/librechat:latest"
