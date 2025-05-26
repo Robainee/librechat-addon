@@ -6,8 +6,8 @@
   "startup": "services",
   "boot": "auto",
   "ports": {
-    "3000/tcp": 3000
+    "3010/tcp": 3010
   },
-  "webui": "http://[HOST]:[PORT:3000]",
+  "webui": "http://[HOST]:[PORT:3010]",
   "image": "ghcr.io/danny-avila/librechat:latest"
 }
