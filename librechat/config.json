@@ -1,0 +1,13 @@
+{
+  "name": "LibreChat",
+  "version": "1.0",
+  "slug": "librechat",
+  "description": "Run LibreChat locally to access ChatGPT via iframe.",
+  "startup": "services",
+  "boot": "auto",
+  "ports": {
+    "3000/tcp": 3000
+  },
+  "webui": "http://[HOST]:[PORT:3000]",
+  "image": "ghcr.io/danny-avila/librechat:latest"
+}
